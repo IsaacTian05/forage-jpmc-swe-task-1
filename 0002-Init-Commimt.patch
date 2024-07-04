@@ -1,0 +1,22 @@
+From 1bb044c667c3c68e8437c32e151168586be8164b Mon Sep 17 00:00:00 2001
+From: IsaacTian05 <isaac.tian@gmail.com>
+Date: Thu, 4 Jul 2024 09:42:50 -0500
+Subject: [PATCH 2/2] Init Commimt
+
+---
+ forage-jpmc-swe-task-1-main/client3.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/forage-jpmc-swe-task-1-main/client3.py b/forage-jpmc-swe-task-1-main/client3.py
+index 3febf46..6a83e7b 100644
+--- a/forage-jpmc-swe-task-1-main/client3.py
++++ b/forage-jpmc-swe-task-1-main/client3.py
+@@ -59,4 +59,4 @@ if __name__ == "__main__":
+             prices[stock] = price
+             print("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
+ 
+-        print("Ratio %s" % getRatio(prices["ABC"], prices["DEF"]))
++        print("Ratio %s" % getRatio(prices["ABC"],prices["DEF"]))
+-- 
+2.39.1.windows.1
+
